@@ -1,0 +1,82 @@
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h2{
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+h3{
+   
+    color: aliceblue;
+    text-align: left;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('barbearia.png');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.botao {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 120px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.botao:hover {
+    background-color: #333;
+    transform:scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.caixa-agendamento {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    margin:50px auto;
+    text-align: center;
+}
+.caixa-agendamento h1, .caixa-agendamento p, .caixa-agendamento label {
+    color: #333 !important;
+}
+body.caixa-agendamento{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+a{
+    color: rgb(217, 255, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #ceaa2d;
+    text-decoration: underline;
+}
+
+link.link-destaque {
+ background-color: #E1306C;
+ padding: 5px 10px;
+ border-radius: 5px;
+ color: white
+}
